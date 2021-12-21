@@ -101,7 +101,7 @@ public class StickerPackListAdapter extends RecyclerView.Adapter<StickerPackList
         if (Build.VERSION.SDK_INT >= 16) {
             view.setBackground(background);
         } else {
-            view.setBackgroundDrawable(background);
+            view.setBackground(background);
         }
     }
 

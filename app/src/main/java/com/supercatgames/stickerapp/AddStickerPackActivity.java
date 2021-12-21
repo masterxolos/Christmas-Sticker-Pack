@@ -34,13 +34,40 @@ import static com.supercatgames.stickerapp.EntryActivity.mRewardedAd;
 public abstract class AddStickerPackActivity extends BaseActivity {
     private static final int ADD_PACK = 200;
     private static final String TAG = "AddStickerPackActivity";
+    private static final String TAG2 = "AdMob";
 
 
 
     protected void addStickerPackToWhatsApp(String identifier, String stickerPackName) {
-        //ShowRewardedAd();
+        ShowRewardedAd();
 
+        mRewardedAd.setFullScreenContentCallback(new FullScreenContentCallback() {
 
+            @Override
+            public void onAdDismissedFullScreenContent() {
+                // Called when ad is dismissed.
+                // Set the ad reference to null so you don't show the ad a second time.
+                Log.d(TAG2, "Ad was dismissed.");
+                mRewardedAd = null;
+                loadRewardedAd();
+                addStickerPackToWhatsApp2(identifier, stickerPackName);
+            }
+            @Override
+            public void onAdShowedFullScreenContent() {
+                // Called when ad is shown.
+                Log.d(TAG, "Ad was shown.");
+            }
+
+            @Override
+            public void onAdFailedToShowFullScreenContent(AdError adError) {
+                // Called when ad fails to show.
+                Log.d(TAG, "Ad failed to show.");
+            }
+        });
+
+    }
+
+    protected void addStickerPackToWhatsApp2(String identifier, String stickerPackName) {
         try {
             //if neither WhatsApp Consumer or WhatsApp Business is installed, then tell user to install the apps.
             if (!WhitelistCheck.isWhatsAppConsumerAppInstalled(getPackageManager()) && !WhitelistCheck.isWhatsAppSmbAppInstalled(getPackageManager())) {
@@ -63,8 +90,8 @@ public abstract class AddStickerPackActivity extends BaseActivity {
             Log.e(TAG, "error adding sticker pack to WhatsApp", e);
             Toast.makeText(this, R.string.add_pack_fail_prompt_update_whatsapp, Toast.LENGTH_LONG).show();
         }
-
     }
+
 
     private void launchIntentToAddPackToSpecificPackage(String identifier, String stickerPackName, String whatsappPackageName) {
         Intent intent = createIntentToAddStickerPack(identifier, stickerPackName);

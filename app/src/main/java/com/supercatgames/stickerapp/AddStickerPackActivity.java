@@ -24,27 +24,22 @@ import androidx.fragment.app.DialogFragment;
 
 import com.example.stickerapp.BuildConfig;
 import com.example.stickerapp.R;
+import com.google.android.gms.ads.AdError;
+import com.google.android.gms.ads.FullScreenContentCallback;
+import com.google.android.gms.ads.OnUserEarnedRewardListener;
+import com.google.android.gms.ads.rewarded.RewardItem;
 
-import static com.supercatgames.stickerapp.EntryActivity.mInterstitialAd;
+import static com.supercatgames.stickerapp.EntryActivity.mRewardedAd;
 
 public abstract class AddStickerPackActivity extends BaseActivity {
     private static final int ADD_PACK = 200;
     private static final String TAG = "AddStickerPackActivity";
 
-    public void onAdShowedFullScreenContent() {
-        // Called when fullscreen content is shown.
-        // Make sure to set your reference to null so you don't
-        // show it a second time.
-        mInterstitialAd = null;
-        Log.d("TAG", "The ad was shown.");
-    }
+
 
     protected void addStickerPackToWhatsApp(String identifier, String stickerPackName) {
-        if (mInterstitialAd != null) {
-            mInterstitialAd.show(this);
-        } else {
-            Log.d("TAG", "The interstitial ad wasn't ready yet.");
-        }
+        //ShowRewardedAd();
+
 
         try {
             //if neither WhatsApp Consumer or WhatsApp Business is installed, then tell user to install the apps.

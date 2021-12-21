@@ -36,6 +36,8 @@
 	<plurals name="title_activity_sticker_packs_list">
 		<item quantity="one">&#x200f;ערכת מדבקות</item>
 		<item quantity="other">&#x200f;ערכות של מדבקות</item>
+		<item quantity="many">&#x200f;ערכות של מדבקות</item>
+		<item quantity="two">&#x200f;ערכות של מדבקות</item>
 	</plurals>
 	<!-- Content description indicating the sticker pack is an animated pack -->
 	<string name="sticker_pack_animation_indicator">&#x200f;ערכת מדבקות מונפשות</string>

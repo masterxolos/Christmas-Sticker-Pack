@@ -35,6 +35,9 @@
 	<!-- Title of the sticker pack list activity page in case the app contains multiple sticker packs, the singular string will be used when there is only one pack in the app -->
 	<plurals name="title_activity_sticker_packs_list">
 		<item quantity="other">Стикерлер жиынтығы</item>
+		<item quantity="one">Стикерлер жиынтығы</item>
+		<item quantity="many">Стикерлер жиынтығы</item>
+		<item quantity="two">Стикерлер жиынтығы</item>
 	</plurals>
 	<!-- Content description indicating the sticker pack is an animated pack -->
 	<string name="sticker_pack_animation_indicator">Анимациялық стикерлер жиынтығы</string>

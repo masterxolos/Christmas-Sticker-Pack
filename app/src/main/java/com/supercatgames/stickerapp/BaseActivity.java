@@ -22,6 +22,7 @@ import androidx.fragment.app.DialogFragment;
 import com.example.stickerapp.R;
 import com.google.android.gms.ads.AdError;
 import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.FullScreenContentCallback;
 import com.google.android.gms.ads.LoadAdError;
 import com.google.android.gms.ads.MobileAds;
@@ -74,6 +75,9 @@ public abstract class BaseActivity extends AppCompatActivity {
         }
     }
 
+
+
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_entry);
@@ -83,8 +87,9 @@ public abstract class BaseActivity extends AppCompatActivity {
             public void onInitializationComplete(InitializationStatus initializationStatus) {
             }
         });
-
         loadRewardedAd();
+
+
     }
 
     @Override

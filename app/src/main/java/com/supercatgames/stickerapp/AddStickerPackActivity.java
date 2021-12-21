@@ -39,7 +39,10 @@ public abstract class AddStickerPackActivity extends BaseActivity {
 
 
     protected void addStickerPackToWhatsApp(String identifier, String stickerPackName) {
-        ShowRewardedAd();
+        if (mRewardedAd != null)
+            ShowRewardedAd();
+        else
+            addStickerPackToWhatsApp2(identifier, stickerPackName);
 
         mRewardedAd.setFullScreenContentCallback(new FullScreenContentCallback() {
 

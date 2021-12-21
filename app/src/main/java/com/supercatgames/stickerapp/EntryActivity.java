@@ -44,14 +44,6 @@ public class EntryActivity extends BaseActivity {
     private static final String TAG = "AdMob: ";
 
 
-    public void ShowAd(){
-        if (mInterstitialAd != null) {
-            mInterstitialAd.show();
-        } else {
-            Log.d("TAG", "The interstitial ad wasn't ready yet.");
-        }
-    }
-
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

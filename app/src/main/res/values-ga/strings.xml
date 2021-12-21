@@ -12,6 +12,9 @@
 	<plurals name="title_activity_sticker_packs_list">
 		<item quantity="one">Pacáiste Greamáin</item>
 		<item quantity="other">Pacáistí Greamáin</item>
+		<item quantity="few">Pacáistí Greamáin</item>
+		<item quantity="many">Pacáistí Greamáin</item>
+		<item quantity="two">Pacáistí Greamáin</item>
 	</plurals>
 	<!-- Title of the sticker pack page when there are multiple sticker packs in the app -->
 	<string name="title_activity_sticker_pack_details_multiple_pack">Sonraí greamáin</string>

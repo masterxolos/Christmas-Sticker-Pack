@@ -36,6 +36,7 @@
 	<plurals name="title_activity_sticker_packs_list">
 		<item quantity="one">Paket naljepnica</item>
 		<item quantity="other">Paketa naljepnica</item>
+		<item quantity="few">Paketa naljepnica</item>
 	</plurals>
 	<!-- Content description indicating the sticker pack is an animated pack -->
 	<string name="sticker_pack_animation_indicator">Paket animiranih naljepnica</string>

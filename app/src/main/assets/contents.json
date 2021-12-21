@@ -1,0 +1,787 @@
+{
+  "android_play_store_link": "",
+  "ios_app_store_link": "",
+  "sticker_packs": [
+    {
+      "identifier": "1",
+      "name": "Christmas",
+      "publisher": "Super Cat Games",
+      "tray_image_file": "christmas sticker-01.png",
+      "image_data_version": "1",
+      "avoid_cache": false,
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "christmas sticker-01.webp",
+          "emojis": [
+            "🙂",
+            "🙂"
+          ]
+        },
+        {
+          "image_file": "christmas sticker-02.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-03.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-04.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-05.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-06.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-07.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-08.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-09.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-10.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-11.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-12.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-13.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-14.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-15.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-16.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-17.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-18.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-19.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-20.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-21.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-22.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-23.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-24.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-25.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "2",
+      "name": "Christmas 2",
+      "publisher": "Super Cat Games",
+      "tray_image_file": "cover.png",
+      "image_data_version": "1",
+      "avoid_cache": false,
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "animated_sticker_pack": false,
+      "stickers": [
+        {
+          "image_file": "christmas sticker-26.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-27.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-28.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-29.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-30.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-31.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-32.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-33.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-34.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-35.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-36.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-38.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-39.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-40.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-41.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-42.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-44.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-45.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-46.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-48.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-49.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "christmas sticker-50.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-26.webp",
+          "emojis": [
+            "",
+            ""
+
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "3",
+      "name": "Christmas 3",
+      "publisher": "Super Cat Games",
+      "tray_image_file": "cover.png",
+      "image_data_version": "1",
+      "avoid_cache": false,
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "animated_sticker_pack": false,
+      "stickers": [
+        {
+          "image_file": "stickerxmas-01.webp",
+          "emojis": [
+            "🙂",
+            "🙂"
+          ]
+        },
+        {
+          "image_file": "stickerxmas-02.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-03.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-04.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-05.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-06.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-07.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-08.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-09.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-10.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-11.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-12.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-13.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-14.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-15.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-16.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-17.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-18.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-19.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-20.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-21.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-22.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-23.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-24.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-25.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "4",
+      "name": "Christmas 4",
+      "publisher": "Super Cat Games",
+      "tray_image_file": "cover.png",
+      "image_data_version": "1",
+      "avoid_cache": false,
+      "publisher_email": "",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "animated_sticker_pack": false,
+      "stickers": [
+        {
+          "image_file": "stickerxmas-27.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-28.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-29.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-30.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-31.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-32.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-33.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-34.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-35.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-36.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-37.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-38.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-39.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-40.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-41.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-42.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-43.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-44.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-45.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-46.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-47.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-48.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-49.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-50.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-51.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-52.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-53.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-54.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-55.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        },
+        {
+          "image_file": "stickerxmas-56.webp",
+          "emojis": [
+            "",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

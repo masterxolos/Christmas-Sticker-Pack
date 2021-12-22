@@ -46,6 +46,39 @@ public class EntryActivity extends BaseActivity {
     private View progressBar;
     private LoadListAsyncTask loadListAsyncTask;
 
+    public InterstitialAd mInterstitialAd;
+    private static final String TAG = "AdMob";
+
+    public void ShowInterstitialAd(){
+        if (mInterstitialAd != null) {
+            mInterstitialAd.show(EntryActivity.this);
+            Log.d(TAG, "The Interstitial ad has displayed.");
+            loadInterstitialAd();
+        } else {
+            Log.d(TAG, "The interstitial ad wasn't ready yet.");
+        }
+    }
+
+    public void loadInterstitialAd(){
+        AdRequest adRequest = new AdRequest.Builder().build();
+        InterstitialAd.load(this,"ca-app-pub-3940256099942544/1033173712", adRequest,
+                new InterstitialAdLoadCallback() {
+                    @Override
+                    public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
+                        // The mInterstitialAd reference will be null until
+                        // an ad is loaded.
+                        mInterstitialAd = interstitialAd;
+                        Log.d(TAG, "onInterstitialAdLoaded");
+                    }
+
+                    @Override
+                    public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
+                        // Handle the error
+                        Log.i(TAG, loadAdError.getMessage());
+                        mInterstitialAd = null;
+                    }
+                });
+    }
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -56,6 +89,27 @@ public class EntryActivity extends BaseActivity {
             @Override
             public void onInitializationComplete(InitializationStatus initializationStatus) {}
         });
+
+        loadInterstitialAd();
+
+        final Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                if(mInterstitialAd != null)
+                    ShowInterstitialAd();
+                else{
+                    final Handler handler = new Handler();
+                    handler.postDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+
+                            ShowInterstitialAd();
+                        }
+                    }, 5000);
+                }
+            }
+        }, 4000);
 
 
 

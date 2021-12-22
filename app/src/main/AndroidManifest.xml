@@ -12,13 +12,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
+        android:hardwareAccelerated="true"
         tools:ignore="ExtraText,GoogleAppIndexingWarning">
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-2358576670844910~9737655618" />
-        //test ağı ca-app-pub-3940256099942544~3347511713
-        //bizimki ca-app-pub-2358576670844910~9737655618
-
         <activity android:name="com.supercatgames.stickerapp.EntryActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

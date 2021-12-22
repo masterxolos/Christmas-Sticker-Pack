@@ -26,6 +26,9 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.stickerapp.R;
 import com.facebook.drawee.view.SimpleDraweeView;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 
 import java.lang.ref.WeakReference;
 
@@ -57,6 +60,15 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity {
     private View divider;
     private WhiteListCheckAsyncTask whiteListCheckAsyncTask;
 
+
+    public void displaybanner() {
+        MobileAds.initialize(this, initializationStatus -> {
+        });
+        AdView mAdView = findViewById(R.id.adView);
+        // AdResources adResources = new AdResources();
+        // https://developers.google.com/admob/android/banner
+        mAdView.loadAd(new AdRequest.Builder().build());
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -92,6 +104,8 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity {
             getSupportActionBar().setTitle(showUpButton ? getResources().getString(R.string.title_activity_sticker_pack_details_multiple_pack) : getResources().getQuantityString(R.plurals.title_activity_sticker_packs_list, 1));
         }
         findViewById(R.id.sticker_pack_animation_indicator).setVisibility(stickerPack.animatedStickerPack ? View.VISIBLE : View.GONE);
+
+        displaybanner();
     }
 
     private void launchInfoActivity(String publisherWebsite, String publisherEmail, String privacyPolicyWebsite, String licenseAgreementWebsite, String trayIconUriString) {

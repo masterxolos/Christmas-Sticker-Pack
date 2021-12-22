@@ -41,7 +41,7 @@ public abstract class BaseActivity extends AppCompatActivity {
     public void loadRewardedAd(){
         AdRequest adRequest = new AdRequest.Builder().build();
 
-        RewardedAd.load(this, "ca-app-pub-3940256099942544/5224354917",
+        RewardedAd.load(this, "ca-app-pub-2358576670844910/6038083750",
                 adRequest, new RewardedAdLoadCallback() {
                     @Override
                     public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
@@ -53,7 +53,7 @@ public abstract class BaseActivity extends AppCompatActivity {
                     @Override
                     public void onAdLoaded(@NonNull RewardedAd rewardedAd) {
                         mRewardedAd = rewardedAd;
-                        Log.d(TAG, "Ad was loaded.");
+                        Log.d(TAG, "Rewarded ad was loaded.");
                     }
                 });
     }

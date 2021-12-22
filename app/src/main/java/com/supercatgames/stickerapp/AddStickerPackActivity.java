@@ -50,7 +50,7 @@ public abstract class AddStickerPackActivity extends BaseActivity {
             public void onAdDismissedFullScreenContent() {
                 // Called when ad is dismissed.
                 // Set the ad reference to null so you don't show the ad a second time.
-                Log.d(TAG2, "Ad was dismissed.");
+                Log.d(TAG2, "Rewarded ad was dismissed.");
                 mRewardedAd = null;
                 loadRewardedAd();
                 addStickerPackToWhatsApp2(identifier, stickerPackName);
@@ -58,13 +58,13 @@ public abstract class AddStickerPackActivity extends BaseActivity {
             @Override
             public void onAdShowedFullScreenContent() {
                 // Called when ad is shown.
-                Log.d(TAG, "Ad was shown.");
+                Log.d(TAG, "Rewarded Ad was shown.");
             }
 
             @Override
             public void onAdFailedToShowFullScreenContent(AdError adError) {
                 // Called when ad fails to show.
-                Log.d(TAG, "Ad failed to show.");
+                Log.d(TAG, "Rewarded Ad failed to show.");
             }
         });
 

@@ -39,6 +39,6 @@
         android:layout_height="wrap_content"
         android:foregroundGravity="center"
         ads:adSize="LARGE_BANNER"
-        ads:adUnitId="ca-app-pub-3940256099942544/6300978111"/>
+        ads:adUnitId="ca-app-pub-2358576670844910/5838881008"/>
 
 </LinearLayout>

@@ -19,7 +19,6 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.DialogFragment;
 
-import com.example.stickerapp.R;
 import com.google.android.gms.ads.AdError;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
@@ -27,20 +26,23 @@ import com.google.android.gms.ads.FullScreenContentCallback;
 import com.google.android.gms.ads.LoadAdError;
 import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.OnUserEarnedRewardListener;
+import com.google.android.gms.ads.RequestConfiguration;
 import com.google.android.gms.ads.initialization.InitializationStatus;
 import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 import com.google.android.gms.ads.rewarded.RewardItem;
 import com.google.android.gms.ads.rewarded.RewardedAd;
 import com.google.android.gms.ads.rewarded.RewardedAdLoadCallback;
 
+import java.util.Arrays;
+import java.util.List;
+
 public abstract class BaseActivity extends AppCompatActivity {
 
     public static RewardedAd mRewardedAd;
-    private static final String TAG = "AdMob: ";
+    private static final String TAG = "BaseActivity AdMob: ";
 
     public void loadRewardedAd(){
         AdRequest adRequest = new AdRequest.Builder().build();
-
         RewardedAd.load(this, "ca-app-pub-2358576670844910/6038083750",
                 adRequest, new RewardedAdLoadCallback() {
                     @Override

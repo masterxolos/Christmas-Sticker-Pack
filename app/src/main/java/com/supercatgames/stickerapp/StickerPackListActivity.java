@@ -15,10 +15,11 @@ import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.stickerapp.R;
+
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.RequestConfiguration;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
@@ -41,7 +42,10 @@ public class StickerPackListActivity extends AddStickerPackActivity {
         AdView mAdView = findViewById(R.id.adView);
         // AdResources adResources = new AdResources();
         // https://developers.google.com/admob/android/banner
+
+
         mAdView.loadAd(new AdRequest.Builder().build());
+
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {

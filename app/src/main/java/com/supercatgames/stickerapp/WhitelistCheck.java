@@ -18,7 +18,7 @@ import android.net.Uri;
 
 import androidx.annotation.NonNull;
 
-import com.example.stickerapp.BuildConfig;
+
 
 class WhitelistCheck {
     private static final String AUTHORITY_QUERY_PARAM = "authority";

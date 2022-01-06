@@ -16,7 +16,7 @@ import android.text.TextUtils;
 
 import androidx.annotation.NonNull;
 
-import com.example.stickerapp.BuildConfig;
+
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

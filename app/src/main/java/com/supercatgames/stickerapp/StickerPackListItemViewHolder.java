@@ -15,7 +15,7 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.stickerapp.R;
+
 
 class StickerPackListItemViewHolder extends RecyclerView.ViewHolder {
 

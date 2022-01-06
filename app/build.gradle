@@ -1,6 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        '1' {
+            storeFile file('C:\\Users\\masterxolos\\Desktop\\Android\\gpkeystoreşifre123.jks')
+            storePassword 'şifre123'
+            keyAlias 'key0'
+            keyPassword 'şifre123'
+        }
+    }
     lintOptions {
         abortOnError false
     }
@@ -28,6 +36,7 @@ android {
         buildConfigField("String",
                 "CONTENT_PROVIDER_AUTHORITY",
                 "\"${contentProviderAuthority}\"")
+        signingConfig signingConfigs.'1'
     }
     buildTypes {
         debug {

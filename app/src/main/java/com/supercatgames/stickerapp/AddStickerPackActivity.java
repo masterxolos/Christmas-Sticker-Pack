@@ -22,8 +22,6 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.DialogFragment;
 
-import com.example.stickerapp.BuildConfig;
-import com.example.stickerapp.R;
 import com.google.android.gms.ads.AdError;
 import com.google.android.gms.ads.FullScreenContentCallback;
 import com.google.android.gms.ads.OnUserEarnedRewardListener;
@@ -34,7 +32,7 @@ import static com.supercatgames.stickerapp.EntryActivity.mRewardedAd;
 public abstract class AddStickerPackActivity extends BaseActivity {
     private static final int ADD_PACK = 200;
     private static final String TAG = "AddStickerPackActivity";
-    private static final String TAG2 = "AdMob";
+    private static final String TAG2 = "AddStickerPack AdMob";
 
 
 

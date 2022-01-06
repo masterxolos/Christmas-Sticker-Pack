@@ -24,7 +24,6 @@ import android.util.Log;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.example.stickerapp.BuildConfig;
 
 import java.io.IOException;
 import java.io.InputStream;

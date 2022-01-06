@@ -22,14 +22,16 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.example.stickerapp.R;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.LoadAdError;
 import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.RequestConfiguration;
 import com.google.android.gms.ads.initialization.InitializationStatus;
 import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 import com.google.android.gms.ads.interstitial.InterstitialAd;
@@ -41,7 +43,7 @@ public class EntryActivity extends BaseActivity {
     private LoadListAsyncTask loadListAsyncTask;
 
     public InterstitialAd mInterstitialAd;
-    private static final String TAG = "AdMob";
+    private static final String TAG = "EntryActivity AdMob";
 
     public void ShowInterstitialAd(){
         if (mInterstitialAd != null) {
@@ -55,6 +57,8 @@ public class EntryActivity extends BaseActivity {
 
     public void loadInterstitialAd(){
         AdRequest adRequest = new AdRequest.Builder().build();
+
+
         InterstitialAd.load(this,"ca-app-pub-2358576670844910/3735461843", adRequest,
                 new InterstitialAdLoadCallback() {
                     @Override

@@ -13,6 +13,7 @@ import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.text.format.Formatter;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -24,10 +25,12 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.stickerapp.R;
+
 import com.facebook.drawee.view.SimpleDraweeView;
+import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.LoadAdError;
 import com.google.android.gms.ads.MobileAds;
 
 import java.lang.ref.WeakReference;
@@ -60,6 +63,7 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity {
     private View divider;
     private WhiteListCheckAsyncTask whiteListCheckAsyncTask;
 
+    private static final String TAG = "DetailsActivity AdMob: ";
 
     public void displaybanner() {
         MobileAds.initialize(this, initializationStatus -> {
@@ -67,8 +71,41 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity {
         AdView mAdView = findViewById(R.id.adView);
         // AdResources adResources = new AdResources();
         // https://developers.google.com/admob/android/banner
+
         mAdView.loadAd(new AdRequest.Builder().build());
+        mAdView.setAdListener(new AdListener() {
+            @Override
+            public void onAdLoaded() {
+                // Code to be executed when an ad finishes loading.
+                Log.d(TAG, "banner ad loaded.");
+            }
+
+            @Override
+            public void onAdFailedToLoad(LoadAdError adError) {
+                // Code to be executed when an ad request fails.
+                Log.d(TAG, "banner ad error");
+            }
+
+            @Override
+            public void onAdOpened() {
+                // Code to be executed when an ad opens an overlay that
+                // covers the screen.
+            }
+
+            @Override
+            public void onAdClicked() {
+                // Code to be executed when the user clicks on an ad.
+            }
+
+            @Override
+            public void onAdClosed() {
+                // Code to be executed when the user is about to return
+                // to the app after tapping on an ad.
+                Log.d(TAG, "banner ad closed");
+            }
+        });
     }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -540,7 +540,7 @@
       "identifier": "Santa",
       "name": "Santa",
       "publisher": "Super Cat Games",
-      "tray_image_file": "cover.png",
+      "tray_image_file": "COVER.png",
       "publisher_email": "",
       "publisher_website": "",
       "privacy_policy_website": "",
@@ -742,7 +742,7 @@
       "identifier": "Snowman",
       "name": "Snowman",
       "publisher": "Super Cat Games",
-      "tray_image_file": "cover.png",
+      "tray_image_file": "COVER.png",
       "publisher_email": "",
       "publisher_website": "",
       "privacy_policy_website": "",
@@ -955,8 +955,8 @@
       ]
     },
     {
-      "identifier": "ho-ho-ho",
-      "name": "ho-ho-ho",
+      "identifier": "HO-HO-HO",
+      "name": "HO-HO-HO",
       "publisher": "Super Cat Games",
       "tray_image_file": "cover.png",
       "publisher_email": "",
@@ -1046,7 +1046,7 @@
       ]
     },
     {
-      "identifier": "christmasgifts",
+      "identifier": "ChristmasGifts",
       "name": "Christmas Gifts",
       "publisher": "Super Cat Games",
       "tray_image_file": "cover.png",

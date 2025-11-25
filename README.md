@@ -24,12 +24,15 @@ Here are some screenshots from the application, demonstrating its features and i
 
 ### Sticker Pack List
 ![Sticker Pack List](screenshots/main_screen.jpg)
+
 *This screen displays all available Christmas sticker packs within the application.*
 
 ### Christmas 3 Pack Details
 ![Christmas 3 Pack Details](screenshots/sticker_details.jpg)
+
 *A detailed view of the "Christmas 3" sticker pack, showing individual stickers and the option to add them to WhatsApp.*
 
 ### Christmas 2 Pack Details
 ![Christmas 2 Pack Details](screenshots/sticker_details_with_ads.jpg)
+
 *Another detailed view, this time for the "Christmas 2" pack, showcasing its sticker collection.*
